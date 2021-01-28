@@ -1,0 +1,4 @@
+<% if $rsyslog::remotelogger { -%>
+*.* @@<%= $rsyslog::remotelogger -%>:514 
+<% } -%>
+

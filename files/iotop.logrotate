@@ -1,0 +1,10 @@
+/var/log/iotop/iotop.log {
+    daily
+    rotate 31
+    copytruncate
+    compress
+    notifempty
+    missingok
+    create 644
+}
+
